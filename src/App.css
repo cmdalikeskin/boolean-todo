@@ -1,0 +1,26 @@
+body{
+  background-color: lightgray;
+}
+
+.app {
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+main{
+  margin-top:5rem;
+  border: solid 1px gray;
+  width: 500px;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+button{
+  margin-left:5px;
+  border:none;
+  background-color:#005cc8;
+  cursor: pointer;
+  color:white;
+}
